@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 72px;
+    background-color: #191919;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 70px 0px 70px;
+}
+
+.navbar p{
+    color: white;
+    font-size: 12px;
+}
+
+/* nev logo */
+
+.nav-logo{
+    height: 35px;
+    width: 145px;
+}
+
+.logo{
+    background-image: url(aliexpress\ logo.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* nev search */
+
+.nav-search{
+    height: 35px;
+    width: 350px;
+    display: flex;
+    background-color: white;
+    border-radius: 24px;
+    align-items: center;
+}
+
+.input{
+    border: none;
+    width: 81%;
+    margin: 10px 10px 10px 14px;
+}
+
+.search-icon{
+    height: 30px;
+    width: 56px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin-right: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon i{
+    color: white;
+    scale: 120%;
+}
+
+/* nev application downloader patrt */
+
+.nav-app{
+    margin-left: 10px;
+    height: 35px;
+    width: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-app i{
+    color: white;
+    scale: 200%;
+}
+
+.app{
+    height: 35px;
+    width: 90px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.app p{
+    color: white;
+    font-size: 12px;
+}
+
+/* Nev language selection part */
+
+.nav-lang{
+    height: 35px;
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-lang img{
+    height: 35px;
+    width: 35px;
+}
+
+.lang-currency{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.lang-currency p{
+    color: white;
+    font-size: 12px;
+    margin-left: 7%;
+}
+
+.currency{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.currency option{
+    color: #191919;
+}
+
+.currency i{
+    color: white;
+    margin-left: 10% ;
+}
+
+/* Nev log in / register part  */
+
+.nav-login{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 35px;
+    width: 170px;
+}
+
+.nav-login i{
+    color: white;
+    scale: 180%;
+}
+
+.welcome-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.login p{
+    font-weight: 800;
+}
+
+.login i{
+    scale: 70%;
+    margin-left: 5px;
+}
+
+/* nev cart */
+
+.cart{
+    height: 35px;
+    width: 69px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart i{
+    scale: 150%;
+    color: white;
+}
+
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.items-no{
+    min-width: 24px;
+    border-radius: 16px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+}
+
+.items-no p{
+    color: #191919;
+    font-weight: 800;
+}
+
+/* nev 2nd header  */
+
+.sub-container{
+    height: 40px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    padding: 0px 90px 0px 90px;
+}
+
+.catagory{
+    height: 30px;
+    width: 200px;
+    background-color: #535353;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.menu{
+    width: 80%;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.menu option{
+    color: #191919;
+}
+
+.catagory i{
+    margin-left: 5px;
+    color: white;
+}
+
+.sub-list{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.sub-list span{
+    height: 30px;
+    display: inline-flex;
+    color: white;
+    font-size: 15px;
+    border-radius: 24px;
+    align-items: center;
+    padding: 0px 6px 0px 6px; 
+}
+
+.sub-list span:hover{
+    background-color: #535353;
+}
+
+.hero-container{
+    height: 320px;
+    background-color: rgb(255, 0, 31);
+    padding: 10px 90px 0px 90px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-tag img{
+    margin-top: 10px;
+    height: 270px;
+}
+
+.offer-container{
+    height: 292px;
+    width: 674px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.offer-1{
+        width: 204px;
+        height: 272px;
+        background-color: #f702ff;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 20px;
+        background-image: url(offer\ card.png);
+        background-size: cover;
+}
+
+.items{
+    height: 92px;
+    width: 195px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.prices{
+    height: 92px;
+    width: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 7px ;
+    flex-direction: column;
+}
+
+.prices p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #6d6d6d;
+    white-space: nowrap;
+    text-decoration: line-through;
+}
+
+#new{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #d3031c;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.sneekers{
+    height: 92px;
+    width: 92px;
+    background-image: url(sneekers.png);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.sandles{
+    height: 92px;
+    width: 92px;
+    background-image: url(sandels.png);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.offer-2{
+    width: 204px;
+    height: 272px;
+    background-color: #ffd102;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-image: url(offer\ card\ 2.png);
+    background-size: cover;
+}
+
+.suit{
+    height: 92px;
+    width: 92px;
+    background-image: url(suit.png);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.cap{
+    height: 92px;
+    width: 92px;
+    background-image: url(cap.png);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.offer-3{
+    width: 204px;
+    height: 272px;
+    background-color: #02eeff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-image: url(offer\ card\ 3.png);
+    background-size: cover;
+}
+
+.airbuds{
+    height: 92px;
+    width: 92px;
+    background-image: url(airbuds.png);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.nack-fan{
+    height: 92px;
+    width: 92px;
+    background-image: url(nack\ fan.png);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.quality-container{
+    height: 100px;
+    padding: 24px 0px 0px 24px;
+}
+
+.quality-container img{
+    height: 84px;
+    width: 1134px;
+    margin-left: 24px;
+}
+
+/* product container part */
+
+.product-container{
+    height: 620px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-list-1{
+    height: 595px;
+    width: 272px;
+}
+
+.product-list-2{
+    height: 595px;
+    width: 370px;
+}
+
+.product-list-3{
+    height: 595px;
+    width: 460px;
+}
